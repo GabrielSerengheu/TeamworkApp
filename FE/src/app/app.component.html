@@ -1,0 +1,12 @@
+<div style="text-align:center">
+  <h1>Welcome to {{ title }}!</h1>
+
+
+
+  <input type="text" [(ngModel)]="messageToSend">
+  <button (click)="sendMessage()">Send Message</button>
+
+
+
+  <p class="received-message">{{ messageReceived }}</p> <!-- Apply the class here -->
+</div>
